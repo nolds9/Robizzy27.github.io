@@ -1,0 +1,49 @@
+body {
+border: 1px solid green;
+padding: 1em;
+width: 50em;
+height: 45.5em;
+font-family: fantasy;
+margin: 2em auto;
+
+}
+h1 {
+text-align: center;
+
+}
+h2 {
+  text-align: left;
+}
+p {
+
+}
+img {
+float: left;
+padding-right: 0.15em;
+
+}
+a {
+
+}
+a.active {
+
+}
+nav {
+  text-align: center;
+}
+main {
+border-color: green;
+border-width: thin;
+border-style: inset;
+padding: 0.15em;
+background-color: grey;
+background-size: contain;
+
+}
+header {
+text-align: center;
+}
+footer {
+text-align: center;
+padding-top: 10px;
+}

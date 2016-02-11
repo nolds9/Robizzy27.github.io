@@ -1,3 +1,8 @@
+/*General suggestions:
+- Add responsive resizing
+- Add a nav bar
+*/
+
 body {
 border: 1px solid green;
 padding: 1em;
@@ -5,7 +10,7 @@ width: 50em;
 height: 45.5em;
 font-family: fantasy;
 margin: 2em auto;
-
+/*Text size is a little small. I'd recommend making it bigger*/
 }
 h1 {
 text-align: center;
@@ -15,11 +20,12 @@ h2 {
   text-align: left;
 }
 p {
+  /*Add some padding around text*/
 
 }
 img {
 float: left;
-padding-right: 0.15em;
+padding-right: 0.15em; /*Increase padding around image*/
 
 }
 a {
@@ -36,7 +42,7 @@ border-color: green;
 border-width: thin;
 border-style: inset;
 padding: 0.15em;
-background-color: grey;
+background-color: grey; /*Contrast between text and background color is hard on eyes*/
 background-size: contain;
 
 }

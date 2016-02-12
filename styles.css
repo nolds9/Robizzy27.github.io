@@ -21,11 +21,11 @@ h2 {
 }
 p {
   /*Add some padding around text*/
-
+padding: 15px;
 }
 img {
 float: left;
-padding-right: 0.15em; /*Increase padding around image*/
+padding-right: 15px; /*Increase padding around image*/
 
 }
 a {

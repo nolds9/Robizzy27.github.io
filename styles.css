@@ -5,9 +5,9 @@
 
 body {
 border: 1px solid green;
-padding: 1em;
-width: 50em;
-height: 45.5em;
+padding: 10px;
+width:auto;
+height:auto;
 font-family: fantasy;
 margin: 2em auto;
 /*Text size is a little small. I'd recommend making it bigger*/
@@ -21,7 +21,7 @@ h2 {
 }
 p {
   /*Add some padding around text*/
-padding: 15px;
+padding: 10px;
 }
 img {
 float: left;
@@ -53,3 +53,26 @@ footer {
 text-align: center;
 padding-top: 10px;
 }
+
+.item {
+  background-color: white;
+  margin-top: 50px;
+  padding: 10px;
+  outline: 1px solid black;
+  font-size: 18px;
+}
+
+.image {
+  border: 1px solid black;
+  padding: 2px;
+  float: left;
+  margin: 10px 20px 10px 10px;
+}
+
+.scroll {
+    padding: 15px;
+    background-color: inherit;
+    width: auto;
+    height: auto;
+    overflow: scroll;
+  }

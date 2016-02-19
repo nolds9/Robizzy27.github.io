@@ -1,59 +1,59 @@
+/* NHO: love Melissa's comments, and just to add to them:
+ I would recommend setting a maximum width and height for the body since there appears to be some gap in the content.
+ CSS Validates! Also formatted your code with Atom's beautify package
+*/
+
 /*General suggestions:
 - Add responsive resizing
 - Add a nav bar
 */
 
 body {
-border: 1px solid green;
-padding: 10px;
-width:auto;
-height:auto;
-font-family: fantasy;
-margin: 2em auto;
-/*Text size is a little small. I'd recommend making it bigger*/
+  border: 1px solid green;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  font-family: fantasy;
+  margin: 2em auto;
+  /*Text size is a little small. I'd recommend making it bigger*/
 }
 h1 {
-text-align: center;
-
+  text-align: center;
 }
 h2 {
   text-align: left;
 }
 p {
   /*Add some padding around text*/
-padding: 10px;
+  padding: 10px;
+  /* NHO: I would also recommend setting a line-height on paragraphs, I like 1.5 personally */
 }
 img {
-float: left;
-padding-right: 15px; /*Increase padding around image*/
-
+  float: left;
+  padding-right: 15px;
+  /*Increase padding around image*/
 }
-a {
-
-}
-a.active {
-
-}
+a {}
+a.active {}
 nav {
   text-align: center;
 }
 main {
-border-color: green;
-border-width: thin;
-border-style: inset;
-padding: 0.15em;
-background-color: grey; /*Contrast between text and background color is hard on eyes*/
-background-size: contain;
-
+  border-color: green;
+  border-width: thin;
+  border-style: inset;
+  padding: 0.15em;
+  background-color: grey;
+  /*Contrast between text and background color is hard on eyes*/
+  background-size: contain;
 }
 header {
-text-align: center;
+  text-align: center;
 }
 footer {
-text-align: center;
-padding-top: 10px;
+  text-align: center;
+  padding-top: 10px;
 }
-
 .item {
   background-color: white;
   margin-top: 50px;
@@ -61,18 +61,16 @@ padding-top: 10px;
   outline: 1px solid black;
   font-size: 18px;
 }
-
 .image {
   border: 1px solid black;
   padding: 2px;
   float: left;
   margin: 10px 20px 10px 10px;
 }
-
 .scroll {
-    padding: 15px;
-    background-color: inherit;
-    width: auto;
-    height: auto;
-    overflow: scroll;
-  }
+  padding: 15px;
+  background-color: inherit;
+  width: auto;
+  height: auto;
+  overflow: scroll;
+}
